@@ -1,0 +1,518 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  position: relative;
+  z-index: 11111;
+  background-color: transparent;
+}
+
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background: #fff;
+  align-items: center;
+  z-index: 99999;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.nav .nav_link {
+  display: flex;
+  width: 25%;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.nav .nav_link .nav_links a {
+  cursor: pointer;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  text-decoration: none;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+.nav .nav_link .nav_links a .nav_links a:hover {
+  color: black;
+}
+
+main {
+  /* main start */
+  /* collection start */
+  /* works start ...................... */
+  /* cofe bo'limi */
+  /* sidbar end */
+  /* section cofe tanlamoq */
+  /* text bootom */
+  /* btn start */
+}
+main .bg_top {
+  background-image: url(../imgs/Bitmap2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 600px;
+  border-radius: 10px;
+  padding: 117px 85px;
+}
+main .text {
+  width: 500px;
+}
+main .bg_top h1 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  width: 493px;
+  font-size: 72px;
+  line-height: 72px;
+  /* or 100% */
+  color: #FEFCF7;
+}
+main .bg_top p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  margin-top: 32px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  width: 445px;
+  padding-right: 70px;
+}
+main .bg_top_btn {
+  cursor: pointer;
+  padding: 13px 31px;
+  background: #66D2CF;
+  border-radius: 6px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  /*identicaltoboxheight,or139%*/
+  margin-top: 56px;
+  text-align: center;
+  border: 3px solid #66D2CF;
+  color: #FEFCF7;
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  box-shadow: 0px 0px 17px 1px #66D2CF;
+}
+main .bg_top_btn:hover {
+  border: 3px solid #66D2CF;
+  cursor: pointer;
+  padding: 13px 31px;
+  background: transparent;
+  border-radius: 6px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  /*identicaltoboxheight,or139%*/
+  margin-top: 56px;
+  text-align: center;
+  color: #FEFCF7;
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+}
+main .bg_top_btn:active {
+  border: 3px solid #66D2CF;
+  cursor: pointer;
+  padding: 13px 31px;
+  background: #8bdddb;
+  border-radius: 6px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  /*identicaltoboxheight,or139%*/
+  margin-top: 56px;
+  text-align: center;
+  color: #FEFCF7;
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+}
+main .works .container {
+  height: 700px;
+  background: #2C343E;
+  /* padding-top: 300px; */
+  padding: 90px 150px 100px 85px;
+}
+main .repozit {
+  display: flex;
+}
+main .creat_plan {
+  padding-top: 80px;
+  width: 350px;
+  height: 300px;
+}
+main .ikk {
+  display: flex;
+  align-items: center;
+}
+main .after::after {
+  display: block;
+  content: "";
+  width: 315px;
+  background: #FDD6BA;
+  border: 2px solid #FDD6BA;
+}
+main .creat_plan h2 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  /* identical to box height, or 100% */
+  margin-top: 30px;
+  color: #FDD6BA;
+}
+main .creat_plan .h3 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  /* or 112% */
+  color: #FEFCF7;
+  margin-top: 30px;
+  padding-right: 150px;
+}
+main .creat_plan .lorem {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #FEFCF7;
+  /* or 162% */
+  width: 285px;
+  margin-top: 40px;
+}
+main .creat_plan:nth-child(3) .after::after {
+  display: none;
+}
+main .drink_cofe {
+  margin-top: 126px;
+}
+main .saidbar {
+  top: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 400px;
+  height: 100%;
+  padding: 0 85px;
+}
+main .d-flex {
+  display: flex;
+}
+main .text_side_bar {
+  display: flex;
+  cursor: pointer;
+  margin-top: 24px;
+}
+main .text_side_bar:hover span {
+  color: rgba(0, 0, 0, 0.696);
+}
+main .text_side_bar:hover p {
+  color: rgba(0, 0, 0, 0.614);
+}
+main .text_side_bar:active span {
+  color: black;
+}
+main .text_side_bar:active p {
+  color: black;
+}
+main .text_side_bar span {
+  cursor: pointer;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #83888F;
+}
+main .text_side_bar p {
+  cursor: pointer;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  padding-left: 24px;
+  color: #83888F;
+  margin-bottom: 10px;
+}
+main .section_cofe {
+  margin-left: 150px;
+}
+main .cofe_top_text {
+  margin-bottom: 56px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height, or 120% */
+  color: #83888F;
+}
+main .cofe_top_text span:nth-child(2) {
+  float: right;
+  cursor: pointer;
+}
+main .card_cofe {
+  width: 228px;
+  height: 250px;
+  padding: 32px 28px;
+  background: #F4F1EB;
+  border-radius: 8px;
+  margin-left: 10px;
+  transition: all 0.1s linear;
+}
+main .boluvchi {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .card_cofe h3 {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+  color: #333D4B;
+}
+main .card_cofe p {
+  margin-top: 24px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #333D4B;
+}
+main .card_cofe:hover {
+  background: #0E8784;
+  cursor: pointer;
+}
+main .card_cofe:hover h3 {
+  color: white;
+}
+main .card_cofe:hover p {
+  color: white;
+}
+main .card_cofe:active {
+  background: #FDD6BA;
+  cursor: pointer;
+}
+main .card_cofe:active h3 {
+  color: rgb(0, 0, 0);
+}
+main .card_cofe:active p {
+  color: rgb(0, 0, 0);
+}
+main .text_bootom {
+  padding: 31px 64px;
+  background: #2C343E;
+  margin-top: 80px;
+  width: 699px;
+  float: right;
+}
+main .text_bootom .ddr {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+main .text_bootom span {
+  color: #0E8784;
+}
+main .text_bootom p {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+  /* or 167% */
+  color: #FFFFFF;
+}
+main .btn {
+  cursor: pointer;
+  padding: 13px 31px;
+  background: #66D2CF;
+  border-radius: 6px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  /*identicaltoboxheight,or139%*/
+  width: 200px;
+  margin-top: 30px;
+  float: right;
+  text-align: center;
+  border: 3px solid #66D2CF;
+  color: #FEFCF7;
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  box-shadow: 0px 0px 17px 1px #66D2CF;
+}
+main .btn:hover {
+  border: 3px solid #66D2CF;
+  cursor: pointer;
+  margin-top: 30px;
+  padding: 13px 31px;
+  background: transparent;
+  border-radius: 6px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  /*identicaltoboxheight,or139%*/
+  text-align: center;
+  color: #66D2CF;
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+}
+main .btn:active {
+  border: 3px solid #66D2CF;
+  margin-top: 30px;
+  cursor: pointer;
+  float: right;
+  padding: 13px 31px;
+  background: #8bdddb;
+  border-radius: 6px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  /*identicaltoboxheight,or139%*/
+  text-align: center;
+  color: #FEFCF7;
+  transition: all 0.1s linear;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+}
+
+footer {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+footer .row {
+  border-radius: 10px;
+  align-items: center;
+  height: 80px;
+  background: #2C343E;
+  display: flex;
+  justify-content: space-between;
+}
+footer .row .nav_list_footer {
+  padding-left: 70px;
+  display: flex;
+}
+footer .row .nav_list_footer {
+  padding-left: 70px;
+  display: flex;
+}
+footer .row .footer_link {
+  display: flex;
+  list-style: none;
+  margin-left: 100px;
+  align-items: center;
+}
+footer .row .links_footer {
+  margin-right: 33px;
+}
+footer .row .footer_link .links_footer a {
+  text-decoration: none;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888F;
+}
+footer .row .footer_link .links_footer a:hover {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height, or 125% */
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #FEFCF7;
+}
+footer .row .nav_link_footer {
+  padding-right: 85px;
+}
+footer .row .tarmoqlar {
+  display: flex;
+  list-style-type: none;
+}
+footer .row .tarmoqlar li {
+  margin-left: 24px;
+  cursor: pointer;
+}
+footer .row .tarmoqlar li .fa-brands {
+  color: #fff;
+  font-size: 24px;
+}
+footer .row .tarmoqlar li .fa-brands:hover {
+  color: #FDD6BA;
+}/*# sourceMappingURL=scss.css.map */
